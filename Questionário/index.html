@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/styleCad.css"  />
+    <script src="./js/cad.js"></script>
+    <title>Formulário de Teste</title>
+</head>
+<body class="body">  
+    <div class="frameCad"> 
+      <h1 id="titleCad">Formulário de Cadastro</h1>
+
+     <form name="formCad" action='http://localhost:3000/usersStore' method="POST">
+        <div class="internalFrameCad">
+          <p class="labelCad">Nome:</p>
+          <input class="answerCad" id="nameCad" title="Informe o nome:" placeholder="Nome Completo" name="nameReg"/>
+           <p class="labelCad">Data de Nascimento:</p>
+           <input class="answerCad"  id="dateCad" type="date" name="nascReg"/>
+          <p class="labelCad">Email:</p>
+         <input class="answerCad" id="emailCad" type="email" placeholder="Digite seu Email" name="emailReg"/>
+        
+        
+         <div class="btnsCad">
+          
+            <button id="btnLeft" type="submit" onclick="cadSave();getName();location.href='./menu.html'">Cadastrar </button>
+         
+            <button id="btnRight" href="javascript:void()" onclick="open(location, '_self').close();">Cancelar</button>
+           
+        </div>
+       </div>   
+      </form>
+    </div>
+</body>
+</html>

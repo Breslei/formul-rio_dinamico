@@ -1,0 +1,65 @@
+.body{
+background-color: #efefef;
+}
+
+
+    #titleCad{
+        text-align: center;
+        justify-content: center;
+        margin-top: 5%;
+        font-size: 20pt;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+
+.frameCad{
+    border: 2px solid;
+    border-color: #595959;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 12%;
+    background-color: #d0d0d0;
+}
+
+.internalFrameCad{
+    margin-top: 7%;
+    margin-left: 12.5%;
+    display: flex ;
+    flex-direction: column;
+}
+
+
+.labelCad{
+    
+    font-size: 12pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.answerCad{
+    padding: 0.9%;
+    width: 80%;
+    font-size: 12pt;
+}
+
+.btnsCad{
+    margin: 0;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    display: block;
+}
+
+
+#btnLeft{
+    position: relative;
+    float: left;
+    margin: 0 auto;
+    margin-left: 27.5%;
+    padding: 1.5%;
+}
+
+#btnRight{
+    position: relative;
+    float: right;
+    margin-right: 40%;
+    padding: 1.5%;
+}

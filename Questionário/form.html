@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/styleForm.css"  />
+    <script src="./js/form.js"></script>
+  
+    <title>Questionário</title>
+    </head>
+<body class="body" onload='getGeolocalization();userName()'>  
+    <div class="frameForm"> 
+      <h1 id="titleForm"></h1>
+       <h3 id="userName" ></h3>
+        <div class="internalFrameForm">
+            <div class='div'>
+            <input type="text" id='overwriteTitle' placeholder="Insira o Título da Página aqui!" />
+             <button id="btnTitle" onclick="changeNamePage()">Inserir Título</button>
+           
+              <p id="pDate">Insira a Data Atual</p>
+             
+              <input id="dataForm" type="date" title="Insira a data atual"/>
+             
+              <div class="btnPlus"  title="Clique aqui para Criar um Formulário" onclick="addQuestion()">
+                <img id="imgPlus" src="./img//plus.png" title="Clique aqui para adicionar questões">
+              </div>
+
+              <div class="newForm">        
+                
+              </div>
+           
+
+        </div>
+      
+      </div>   
+    </div>
+    
+</body>
+</html>
